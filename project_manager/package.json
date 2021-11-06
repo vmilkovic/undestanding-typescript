@@ -1,0 +1,26 @@
+{
+  "name": "ProjectManager",
+  "version": "1.0.0",
+  "description": "Project Manager App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "build": "webpack --config webpack.config.prod.js"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Vedran Milković",
+  "license": "ISC",
+  "dependencies": {
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.4.4",
+    "webpack": "^5.62.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0"
+  }
+}
